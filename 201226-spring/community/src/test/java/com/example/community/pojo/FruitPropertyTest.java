@@ -10,18 +10,20 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-@SpringBootTest
-class FruitPropertyTest {
-
-    @Autowired
-    FruitProperty fruitProperty;
-
-    @Test
-    public void test(){
-
-        List<Fruit> fruitData = fruitProperty.getList();
-
-        assertEquals(fruitData.get(0).getName(), "banana");
-    }
-
-}
+//@SpringBootTest
+//class FruitPropertyTest {
+//
+//    @Autowired
+//    FruitProperty fruitProperty;
+//
+//    @Test
+//    public void test(){
+//
+//        List<Fruit> fruitData = fruitProperty.getList();
+//        List<Fruit> fruits = fruitProperty.getList();
+//
+//        assertEquals(fruitData.get(0).getName(), "banana");
+//
+//    }
+//
+//}
