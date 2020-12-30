@@ -3,7 +3,6 @@ package SpringBootCommunityWeb.web.service;
 import SpringBootCommunityWeb.web.domain.Board;
 import SpringBootCommunityWeb.web.repository.BoardRepository;
 import lombok.RequiredArgsConstructor;
-import org.hibernate.procedure.spi.ParameterRegistrationImplementor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
