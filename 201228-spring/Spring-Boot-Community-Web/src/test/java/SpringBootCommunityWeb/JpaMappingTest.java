@@ -38,7 +38,7 @@ public class JpaMappingTest {
 
         boardRepository.save(Board.builder()
                 .title(boardTestTitle)
-                .subTile("testSubTitle")
+                .subTitle("testSubTitle")
                 .content("testContent")
                 .boardType(BoardType.free)
                 .createdDate(LocalDateTime.now())
