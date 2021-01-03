@@ -1,28 +1,24 @@
 package test;
 
 import main.Account;
+import org.junit.Test;
+
+import static org.junit.Assert.fail;
+
 
 public class AccountTest {
 
-
-    public void testAccount() throws Exception {
-        Account account = new Account();
-        if (account == null){
-            throw new Exception("계좌생성 실패");
-        }
-
+    @Test
+    public void accountTest() throws Exception {
+        Account account = new Account(10000);
     }
 
-    public static void main(String[] args) {
-
-        AccountTest test = new AccountTest();
-        try {
-            test.testAccount();
-        } catch (Exception e) {
-            System.out.println("fail");
-            e.printStackTrace();
+    @Test
+    public void testGetBalance() throws Exception{
+        Account account = new Account(10000);
+        if (account.getBalance() != 10000){
+            fail("Error occurred!");
         }
-        System.out.println("success");
 
     }
 
