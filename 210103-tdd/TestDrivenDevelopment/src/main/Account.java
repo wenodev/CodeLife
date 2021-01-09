@@ -1,10 +1,14 @@
 package main;
 
 public class Account {
-    public Account(int balance) {
+
+    private int balance;
+
+    public Account(int money) {
+        this.balance = money;
     }
 
     public int getBalance() {
-        return 0;
+        return this.balance;
     }
 }
