@@ -3,6 +3,7 @@ package com.example.demo.student;
 import javax.persistence.*;
 import java.time.LocalDate;
 
+@Table
 @Entity
 public class Student {
 
