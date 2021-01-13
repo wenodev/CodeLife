@@ -6,4 +6,4 @@ demo.iml
 mvnw
 mvnw.cmd
 src/main/resources/**
-target/**
+target
