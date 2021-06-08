@@ -1,3 +1,5 @@
+package ch4;
+
 public class PrimitiveTypeSecond {
 
     int intDefault;
