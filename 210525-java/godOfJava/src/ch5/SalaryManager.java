@@ -32,6 +32,5 @@ public class SalaryManager {
         System.out.println(monthSalary * 0.135);
         return monthSalary * 0.135;
     }
-
 }
 
