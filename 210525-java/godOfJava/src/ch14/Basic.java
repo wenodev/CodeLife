@@ -5,18 +5,9 @@ public class Basic {
         Basic sample = new Basic();
         sample.throwMyException(13);
     }
-    private void throwMyException(int number) {
-        int[] intArray = new int[5];
-
-        try {
-            System.out.println(intArray[5]);
+    private void throwMyException(int number)  {
+        if (number > 12){
+            throw new MyException("error");
         }
-        catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("array exception");
-        }
-        catch (Exception e){
-            System.out.println("exception");
-        }
-
     }
 }

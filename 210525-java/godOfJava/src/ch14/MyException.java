@@ -1,6 +1,6 @@
 package ch14;
 
-public class MyException extends Exception{
+public class MyException extends RuntimeException{
     public MyException(){
         super();
     }
