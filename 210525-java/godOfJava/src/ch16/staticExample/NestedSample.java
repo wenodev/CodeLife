@@ -1,4 +1,4 @@
-package ch16;
+package ch16.staticExample;
 
 public class NestedSample {
     public static void main(String[] args) {
