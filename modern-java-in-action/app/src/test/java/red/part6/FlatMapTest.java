@@ -19,8 +19,6 @@ public class FlatMapTest {
        List<String> stringList = Arrays.stream(strArray)
                 .flatMap(x -> Arrays.stream(x)).collect(Collectors.toList());
 
-        System.out.println(stringList);
-
       assertThat(stringList).containsExactly("a1, a2", "b1, b2", "c1, c2");
     }
 }
