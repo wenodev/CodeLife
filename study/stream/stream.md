@@ -263,7 +263,7 @@ Stream<T> peek(Consumer<? super T> action);
     }
 ```
 
-4. 예제보러가기
+4. [예제보러가기](https://github.com/wenodev/CodeLife/blob/main/study/stream/example.md)
 
 [참고]
 
