@@ -5,13 +5,8 @@ import org.junit.jupiter.api.Test;
 class LottoServiceTest {
 
     @Test
-    void test_createLottoNumbers(){
-        LottoService lottoService = new LottoService();
-        LottoTicket lottoTicket = lottoService.createLottoNumbers();
+    void test_createLotto(){
 
-        System.out.println(lottoTicket.getLottoNumbers().size());
-        lottoTicket.getLottoNumbers().clear();
-        System.out.println(lottoTicket.getLottoNumbers().size());
     }
 
 }
